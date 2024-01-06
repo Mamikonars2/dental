@@ -1,0 +1,240 @@
+:root {
+  --accent-color: #2378c9;
+  --text-light: #fefefe;
+  --text-dark: #302d2d;
+  --action: #f86d6d;
+  --action-hover: #ee5252;
+}
+
+/* source-sans-3-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/source-sans-3-v15-cyrillic_latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* source-sans-3-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/source-sans-3-v15-cyrillic_latin-500.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* source-sans-3-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/source-sans-3-v15-cyrillic_latin-700.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Source Sans 3";
+  color: #000;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1262px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.cover_image {
+  /* like bg-img cover */
+  object-fit: cover;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.btn {
+  border: none;
+  margin: 0;
+  padding: 0 28px;
+  height: 52px;
+  border-radius: 26px;
+  white-space: nowrap;
+  width: auto;
+  overflow: visible;
+  outline: none;
+  text-align: inherit;
+  background: transparent;
+  color: var(--text-light);
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  cursor: pointer;
+  transition: background .3s ease-in;
+}
+
+/* header  */
+.header {
+}
+
+.header-top {
+  padding: 14px;
+  background-color: var(--accent-color);
+  color: var(--text-light);
+}
+
+.header-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top__left {
+}
+
+.address-block {
+  display: flex;
+  align-items: center;
+}
+
+.address-block img {
+  margin-right: 14px;
+}
+
+.header-top__right {
+  display: flex;
+}
+
+.tel-block {
+  display: flex;
+  align-items: center;
+}
+
+.tel-block img,
+.mail-block img {
+  margin-right: 10px;
+}
+
+header .mail-block {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+header .socials-block {
+  margin-left: 55px;
+}
+
+.socials-list {
+  display: flex;
+}
+
+.socials-list__item {
+  margin-left: 30px;
+}
+
+.header-main {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+}
+
+.header-menu {
+}
+
+.header-nav {
+}
+
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 88px;
+}
+
+.header-nav__list li a {
+  color: #302d2d;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 38px;
+  position: relative;
+}
+
+.header-nav__list li a:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -20%;
+  left: 0;
+  width: 0%;
+  background: var(--accent-color);
+  transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -ms-transition: width 0.3s;
+  -o-transition: width 0.3s;
+}
+
+.header-nav__list li a:hover:after {
+  width: 100%;
+}
+.header-btn {
+  margin-left: 88px;
+}
+
+.action-btn {
+  background-color: var(--action);
+}
+
+.action-btn:hover {
+  background-color: var(--action-hover);
+}
+/* header end */
