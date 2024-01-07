@@ -4,6 +4,8 @@
   --text-dark: #302d2d;
   --action: #f86d6d;
   --action-hover: #ee5252;
+  --info: #5eb8f0;
+  --info-hover: #0699f5;
 }
 
 /* source-sans-3-regular - cyrillic_latin */
@@ -69,7 +71,7 @@ img {
 }
 
 .wrapper {
-  max-width: 1920px;
+  max-width: 2600px;
   margin: 0 auto;
 }
 
@@ -112,7 +114,7 @@ img {
   -moz-osx-font-smoothing: inherit;
   -webkit-appearance: none;
   cursor: pointer;
-  transition: background .3s ease-in;
+  transition: background 0.3s ease-in;
 }
 
 /* header  */
@@ -173,6 +175,14 @@ header .socials-block {
 
 .socials-list__item {
   margin-left: 30px;
+}
+
+.socials-list__item img {
+  transition: transform 0.3s ease-in;
+}
+
+.socials-list__item img:hover {
+  transform: scale(1.1);
 }
 
 .header-main {
@@ -238,3 +248,125 @@ header .socials-block {
   background-color: var(--action-hover);
 }
 /* header end */
+
+/* intro */
+.intro {
+  background-color: var(--accent-color);
+  color: var(--text-light);
+  height: 680px;
+  overflow: hidden;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-left {
+  max-width: 485px;
+  align-self: flex-end;
+  margin-top: 100px;
+}
+
+.intro-title {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 105.7%;
+  margin-bottom: 25px;
+}
+
+.intro-desc {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.info-btn {
+  background: var(--info);
+}
+
+.info-btn:hover {
+  background: var(--info-hover);
+}
+
+.intro-right {
+  width: 45%;
+}
+
+.intro-img-block {
+  position: relative;
+}
+
+.intro-img {
+  /* width: 420px; */
+  position: absolute;
+}
+
+.img-effect {
+}
+
+.intro-img__bg {
+}
+/* intro end */
+
+/* main services  */
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 0;
+}
+
+.services-left {
+  width: 40%;
+}
+.services-img {
+}
+.services-right {
+  width: 52%;
+}
+
+.services-title {
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.main-title {
+  font-size: 52px;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.span-services-list-title,
+.services-text {
+  font-size: 18px;
+  line-height: 175.2%;
+}
+
+.services-list {
+  margin-top: 18px;
+  column-count: 2;
+  margin-left: 22px;
+}
+
+.services-list li {
+  position: relative;
+  font-size: 20px;
+  margin-right: 22px;
+  margin-bottom: 20px;
+}
+
+.services-list li::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  position: absolute;
+  left: -22px;
+  top:3px;
+}
+
+
+/* main services end */
