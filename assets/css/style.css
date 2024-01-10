@@ -701,6 +701,7 @@ header .socials-block {
   display: flex;
   width: 105%;
   justify-content: space-between;
+  transform: translateY(-50%);
 }
 
 .review-arrow__left img,
@@ -714,3 +715,62 @@ header .socials-block {
   transform: scale(1.05);
 }
 /* reviews end */
+
+/* main page form */
+.signup {
+  padding: 50px 0 0;
+  background: linear-gradient(
+    258deg,
+    #dfeefc 11.01%,
+    rgba(167, 210, 251, 0.92) 92.77%
+  );
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-form-block {
+}
+
+.signup-form {
+  max-width: 425px;
+  padding: 64px 58px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 8px 2px rgba(108, 108, 108, 0.25);
+}
+
+.signup-form input {
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 19px 23px;
+  width: 100%;
+}
+
+.signup-form__title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.form-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-form .info-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.signup-img img{
+  display: flex;
+}
+
+/* main page form end */
