@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <title>Dental</title>
 </head>
 
@@ -17,7 +18,7 @@
                     <div class="header-top__left">
                         <div class="address-block">
                             <img src="assets/img/icons/location.svg" alt="address">
-                            <a href="#">Saryan 20/40</a>
+                            <a href="#">Street Cityville 1/2</a>
                         </div>
                     </div>
                     <div class="header-top__right">
@@ -47,6 +48,59 @@
                                     </a>
                                 </li>
                             </ul>
+                            <div class="toggle-menu">
+                                <div class="line line1"></div>
+                                <div class="line line2"></div>
+                                <div class="line line3"></div>
+                            </div>
+                            <div class="mobile-menu">
+                                <div class="tel-block">
+                                    <img src="assets/img/icons/phone.svg" alt="phone">
+                                    <a href="tel:11111">+(374)770000</a>
+                                </div>
+
+                                <div class="address-block">
+                                    <img src="assets/img/icons/location.svg" alt="address">
+                                    <a href="#">Street Cityville 1/2</a>
+                                </div>
+                                <ul class="socials-list">
+                                    <li class="socials-list__item">
+                                        <a href="">
+                                            <img src="assets/img/icons/twitter.svg" alt="twitter">
+                                        </a>
+                                    </li>
+                                    <li class="socials-list__item">
+                                        <a href="">
+                                            <img src="assets/img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li class="socials-list__item">
+                                        <a href="">
+                                            <img src="assets/img/icons/vk.svg" alt="vk">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="mobile-nav__list">
+                                    <li>
+                                        <a href="">Главная</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Специалисты</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Отзывы</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Блог</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Контакты</a>
+                                    </li>
+                                </ul> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,7 +119,7 @@
                                 <a href="">Услуги</a>
                             </li>
                             <li>
-                                <a href="">Наши специалисты</a>
+                                <a href="">Специалисты</a>
                             </li>
                             <li>
                                 <a href="">Отзывы</a>
@@ -76,8 +130,8 @@
                             <li>
                                 <a href="">Контакты</a>
                             </li>
-                        </ul>
-                    </nav>
+                        </ul>                        
+                    </nav>                    
                 </div>
                 <div class="header-btn">
                     <button class="btn action-btn">Получить консультацию</button>
@@ -406,13 +460,15 @@
                                 <p class="review-text"></p>
                                 <div class="review-info">
                                     <p class="review-text">
-                                        Отличная стоматология. Заболел зуб. Обратился в эту стоматологию. Качество обслуживания на высшем уровне. Сделали отбеливание зубов. Все отлично. Однозначно рекомендую.
+                                        Отличная стоматология. Заболел зуб. Обратился в эту стоматологию. Качество
+                                        обслуживания на высшем уровне. Сделали отбеливание зубов. Все отлично.
+                                        Однозначно рекомендую.
                                     </p>
                                     <p class="review-name">Алина Беляева</p>
-                                    
+
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="review-arrows">
@@ -443,6 +499,79 @@
                 </div>
             </div>
         </section>
+
+        <footer class="footer">
+            <div class="footer-content container">
+                <div class="footer-info">
+                    <img src="assets/img/icons/logo-light.svg" class="footer-logo" alt="logo">
+                    <div class="tel-block">
+                        <img src="assets/img/icons/phone.svg" alt="phone">
+                        <a href="tel:11111">+(374)770000</a>
+                    </div>
+                    <div class="mail-block">
+                        <img src="assets/img/icons/mail.svg" alt="mail">
+                        <a href="mailto:dentaldev@mail.am">dentaldev@mail.am</a>
+                    </div>
+
+                    <ul class="socials-list">
+                        <li class="socials-list__item">
+                            <a href="">
+                                <img src="assets/img/icons/twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="">
+                                <img src="assets/img/icons/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="">
+                                <img src="assets/img/icons/vk.svg" alt="vk">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-list-block">
+                    <h4 class="footer-blok-title">Наши услуги</h4>
+                    <ul class="footer-list">
+                        <li>Отбеливание зубов</li>
+                        <li>Лечение десен</li>
+                        <li>Реставрации</li>
+                        <li>Дизайн улыбки</li>
+                        <li>Корневой канал</li>
+                        <li>Ортодонтия</li>
+                    </ul>
+                </div>
+
+                <div class="footer-list-block">
+                    <h4 class="footer-blok-title">Наши стоматологи</h4>
+                    <ul class="footer-list">
+                        <li><a href="">Игорь Протопский</a></li>
+                        <li><a href="">Олег Григоревич</a></li>
+                        <li><a href="">София Грин</a></li>
+                        <li><a href="">Мария Александровна</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-list-block">
+                    <h4 class="footer-blok-title">Часы работы</h4>
+                    <ul class="footer-list">
+                        <li>Понедельник: <span class="work-time">8:30 - 20:00</span></li>
+                        <li>Вторник: <span class="work-time">8:30 - 20:00</span></li>
+                        <li>Среда: <span class="work-time">8:30 - 20:00</span></li>
+                        <li>Четверг: <span class="work-time">8:30 - 20:00</span></li>
+                        <li>Пятница: <span class="work-time">10:00 - 19:00</span></li>
+                        <li>Пятница: <span class="work-time">10:00 - 19:00</span></li>
+                        <li>Пятница: <span class="work-time">Закрыто</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="copyright">2024 | Portfolio site by <a class="author" href="https://vk.com/mamikonarsvk/"
+                        target="_blank">Mamikon</a></div>
+            </div>
+        </footer>
     </div>
 </body>
 

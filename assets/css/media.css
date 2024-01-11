@@ -1,5 +1,26 @@
-@media screen and (max-width: 1200px) {
-	
+@media screen and (max-width: 1400px) {
+	.header-btn {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+
+    .btn {
+        padding: 0 18px;
+    }
+
+    .header-nav__list li:not(:first-child) a {
+        margin-left: 20px;
+    }
+
+    .header-btn {
+        margin-left: 26px;
+    }
+
+	/* .toggle-menu {
+        display: flex;
+    } */
 }
 
 @media screen and (max-width: 992px) {
