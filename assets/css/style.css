@@ -265,13 +265,16 @@ header .socials-block {
 
 .mobile-menu {
   display: none;
+  visibility: hidden;
+  left: -50%;
+  transition: left 0.3s ease-in;
 }
 
 .toggle-menu {
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
-  top: -4px;
-  right: 0;
+  top: 10px;
+  right: 20px;
   width: 40px;
   height: 30px;
   display: none;
@@ -291,7 +294,7 @@ header .socials-block {
 }
 
 .toggle .line1 {
-  background-color: #000000;
+  background-color: #fff;
   transform: scale(0.9) rotateZ(-45deg) translate(-6px, 4px);
   transform-origin: center;
 }
@@ -301,16 +304,14 @@ header .socials-block {
 }
 
 .toggle .line3 {
-  background-color: #000000;
-  transform: scale(0.9) rotateZ(45deg) translate(-6px, -6px);
+  background-color: #fff;
+  transform: scale(0.9) rotateZ(45deg) translate(-6px, -4px);
   transform-origin: center;
 }
 
 .toggle .toggle-menu {
   background-color: white;
 }
-
-
 
 .header-btn {
   margin-left: 88px;
@@ -392,7 +393,7 @@ header .socials-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 0;
+  padding: 90px 15px;
 }
 
 .services-left {
@@ -487,10 +488,10 @@ header .socials-block {
 
 /* team */
 .team {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
-.section-titel {
+.section-title {
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
@@ -566,11 +567,26 @@ header .socials-block {
   position: relative;
 }
 
-.pricing::after {
+/* fix */
+/* .pricing::after {
   content: url(../img/price-image.png);
   position: absolute;
   top: 20px;
   right: 0;
+  z-index: 9;
+} */
+
+.pricing::after {
+  background-image: url(../img/price-image.png);
+  background-size: cover;
+  background-position: center center;
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 730px;
+  height: 730px;
+  z-index: 9;
 }
 
 .price-block {
@@ -579,6 +595,8 @@ header .socials-block {
   background-color: var(--info);
   color: var(--text-light);
   border-radius: 20px;
+  position: relative;
+  z-index: 10;
 }
 
 .price-block__title {
@@ -635,6 +653,8 @@ header .socials-block {
 }
 
 .post-item {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
   max-width: 387px;
   border-radius: 20px;
@@ -670,7 +690,7 @@ header .socials-block {
 
 .post-item__title {
   font-size: 22px;
-  margin-bottom: 17px;
+  margin-bottom: 0;
   margin-top: 14px;
 }
 
@@ -683,6 +703,7 @@ header .socials-block {
   justify-content: center;
   align-items: center;
   margin: 0 15px 20px;
+  margin-top: auto;
 }
 
 .button-block {
@@ -694,7 +715,7 @@ header .socials-block {
 
 /* reviews */
 .reviews {
-  padding: 90px 0;
+  padding: 90px 20px;
   background-image: url(../img/reviews-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -702,6 +723,8 @@ header .socials-block {
 }
 
 .review-block {
+  max-width: 1060px;
+  margin: 0 auto;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.9);
   padding: 55px 150px;
@@ -824,7 +847,7 @@ header .socials-block {
   text-align: center;
 }
 
-.signup-img img{
+.signup-img img {
   display: flex;
 }
 
@@ -832,10 +855,10 @@ header .socials-block {
 
 /* footer  */
 
-.footer { 
-  padding: 68px 0 20px;
-  background: #10406F;
-  color: var(--text-light)
+.footer {
+  padding: 68px 0 0;
+  background: #10406f;
+  color: var(--text-light);
 }
 
 .footer-content {
@@ -843,44 +866,43 @@ header .socials-block {
   justify-content: space-between;
 }
 
-.footer-info { }
+.footer-info {
+}
 
 .footer-logo {
   margin-bottom: 30px;
-
 }
 
 .tel-block {
-  
- }
+}
 
 footer .mail-block {
   margin: 20px 0;
- }
+}
 
 .footer-list-block {
   display: flex;
   flex-direction: column;
   max-width: 240px;
- }
+}
 
 .footer-blok-title {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
- }
+}
 
 .footer-list li {
   margin-bottom: 15px;
- }
+}
 
-.copyright{
-	padding: 25px 0;
-	margin: 0 auto;
-	width: 100%;
-	text-align: center;
-	color: #d1e1ef;
-	font-family: inherit;
+.copyright {
+  padding: 25px 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: #d1e1ef;
+  font-family: inherit;
   border-top: 1px solid #dddcdc;
 }
 
@@ -888,13 +910,13 @@ footer .mail-block {
   margin-top: 32px;
 }
 
-.author{
-	color: #14e7e7;
-  transition: color .3s ease-in-out;
+.author {
+  color: #14e7e7;
+  transition: color 0.3s ease-in-out;
 }
 
-.author:hover{
-	color: #00b4b4;
+.author:hover {
+  color: #00b4b4;
 }
 
 /* footer end */

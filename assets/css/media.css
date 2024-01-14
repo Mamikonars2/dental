@@ -1,37 +1,416 @@
+/* @import url("style.css"); */
+
 @media screen and (max-width: 1400px) {
-	.header-btn {
-        margin-left: 50px;
-    }
+  .header-btn {
+    margin-left: 50px;
+  }
+
+  .team-item {
+    max-width: 260px;
+  }
+
+  .pricing::after {
+    background-image: url(../img/price-image.png);
+    background-size: cover;
+    background-position: center center;
+    content: "";
+    position: absolute;
+    top: 140px;
+    right: 0;
+    width: 530px;
+    height: 530px;
+    z-index: 9;
+  }
+
+  .post-item {
+    max-width: 32%;
+  }
 }
 
 @media screen and (max-width: 1140px) {
+  .btn {
+    padding: 0 18px;
+  }
 
-    .btn {
-        padding: 0 18px;
-    }
+  .header-nav__list li:not(:first-child) a {
+    margin-left: 20px;
+  }
 
-    .header-nav__list li:not(:first-child) a {
-        margin-left: 20px;
-    }
+  .header-btn {
+    margin-left: 26px;
+  }
 
-    .header-btn {
-        margin-left: 26px;
-    }
+  .header-top__right {
+    display: none;
+  }
 
-	/* .toggle-menu {
-        display: flex;
-    } */
+  .main-title,
+  .services-title {
+    font-size: 44px;
+  }
+
+  .services-title {
+    margin-bottom: 0;
+  }
+
+  .advantages-item {
+    max-width: 300px;
+  }
+
+  .team-item {
+    max-width: 24%;
+  }
+
+  .review-block {
+    padding: 32px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-	
+  .header-nav__list {
+    display: none;
+  }
+
+  .toggle-menu {
+    display: flex;
+    z-index: 10001;
+  }
+
+  .mobile-menu {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    background: #1c60a1;
+    position: absolute;
+  }
+
+  .mobile-menu .tel-block,
+  .mobile-menu .address-block,
+  .mobile-menu .socials-list {
+    margin-bottom: 25px;
+  }
+
+  .mobile-menu .tel-block {
+    margin-top: 30px;
+  }
+
+  .mobile-nav__list {
+    margin-top: 20px;
+  }
+
+  .mobile-nav__list li {
+    margin-bottom: 26px;
+  }
+
+  .mobile-nav__list li {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .mobile-menu.active {
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    visibility: visible;
+    z-index: 10000;
+  }
+
+  .intro-left {
+    margin-top: 100px;
+    max-width: 400px;
+  }
+
+  .intro-desc {
+    font-size: 16px;
+  }
+
+  .intro-title {
+    font-size: 38px;
+  }
+
+  .intro {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .services {
+    flex-wrap: wrap;
+  }
+
+  .services-left {
+    width: 100%;
+    margin: 0 auto 35px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-right {
+    width: 100%;
+  }
+
+  .services-list {
+    max-width: 480px;
+  }
+
+  .advantages-content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .advantages-item {
+    max-width: 372px;
+    margin-bottom: 35px;
+  }
+
+  .advantages-item:last-child {
+    margin-bottom: unset;
+  }
+
+  .team-block {
+    flex-wrap: wrap;
+  }
+
+  .team-item {
+    max-width: 48%;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .team {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .price-block {
+    max-width: 100%;
+  }
+
+  .pricing::after {
+    background-image: unset;
+  }
+
+  .posts-block {
+    flex-wrap: nowrap;
+  }
+
+  .posts-block {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .post-item {
+    flex: 0 0 300px;
+    margin-right: 10px;
+    max-width: fit-content;
+  }
+
+  .news,
+  .pricing,
+  .advantages,
+  .services {
+    padding: 40px 15px;
+  }
+
+  .review-img img {
+    max-width: 230px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .review-arrow__left img,
+  .review-arrow__right img {
+    width: 38px;
+  }
+
+  .review-arrows {
+    left: -20px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    line-height: 160%;
+    margin-right: 5px;
+  }
+
+  .review-item__title {
+    font-size: 38px;
+  }
+
+  .review-name {
+    font-size: 24px;
+  }
+
+  .review-content {
+    margin-top: 40px;
+  }
+
+  .signup-img {
+    max-width: 40%;
+  }
+
+  .signup {
+    padding: 45px 0;
+  }
+
+  .footer-content {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-info {
+    order: 1;
+  }
+
+  .footer {
+    padding: 40px 0 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-	
+  .intro-left {
+    margin-top: 60px;
+    max-width: 328px;
+  }
 
+  .intro {
+    padding-bottom: 60px;
+  }
+
+  .price-block {
+    padding: 24px;
+  }
+
+  .pricing-list {
+    margin-top: 32px;
+  }
+
+  .post-item {
+    flex: 0 0 335px;
+  }
+
+  .signup-img {
+    display: none;
+  }
+
+  .signup-content {
+    justify-content: center;
+  }
+
+  .signup-form {
+    padding: 42px 35px;
+  }
+
+  .signup-form__title {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-	
+  .intro-right {
+    display: none;
+  }
+
+  .intro-left {
+    margin-top: 40px;
+    max-width: 100%;
+  }
+
+  .intro {
+    padding-bottom: 40px;
+  }
+
+  .main-title,
+  .services-title {
+    font-size: 30px;
+  }
+
+  .span-services-list-title,
+  .services-text,
+  .services-list li {
+    font-size: 14px;
+  }
+
+  .advantages-title {
+    font-size: 20px;
+  }
+
+  .advantages-text {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+
+  .team-name {
+    font-size: 16px;
+  }
+
+  .team-item__footer {
+    padding: 14px;
+  }
+
+  .price-block__title {
+    font-size: 28px;
+  }
+
+  .price-block__desc {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .pricing-list__price,
+  .pricing-list__name {
+    font-size: 16px;
+  }
+
+  .advantages-title {
+    margin: 8px 0 0 0;
+  }
+
+  .section-title {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-left {
+    text-align: center;
+  }
+
+  .btn {
+    padding: 0 12px;
+    font-size: 14px;
+  }
+
+  .header-logo img {
+    width: 130px;
+  }
+
+  .post-item {
+    flex: 0 0 387px;
+  }
+
+  .btn {
+    padding: 0px 24px;
+  }
+
+  .footer-info,
+  .footer-list-block {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .footer .tel-block,
+  .footer .socials-list {
+    justify-content: center;
+
+  }
 }

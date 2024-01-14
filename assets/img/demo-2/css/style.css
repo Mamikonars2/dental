@@ -57,21 +57,21 @@ h1 {
 	font-weight: 700;
 	font-size: 62px;
 }
-.def-title-wrapper {
+.def-titel-wrapper {
 	max-width: 470px;
 	margin: 0 auto 45px auto;
 	text-align: center;
 }
-.def-title-wrapper .def-description {
+.def-titel-wrapper .def-description {
 	font-weight: 300;
 }
-.def-title {
+.def-titel {
 	font-size: 46px;
 	line-height: 55px;
 	margin-bottom: 20px;
 }
 
-.def-title .title-bold {
+.def-titel .titel-bold {
 	font-weight: 700;
 	color: #2378C9;
 }
@@ -154,7 +154,7 @@ strong {
 .callback-body {
 	padding: 18px 28px 40px 28px;
 }
-.callback-form-title {
+.callback-form-titel {
 	font-size: 26px;
 	text-align: center;
 	margin-bottom: 20px;
@@ -536,13 +536,13 @@ strong {
 	display: flex;
 	align-items: center;
 }
-.banner-subtitle {
+.banner-subtitel {
 	font-size: 14px;
 	color: #C5C1FE;
 	position: relative;
 	margin-bottom: 10px;
 }
-.banner-subtitle::before {
+.banner-subtitel::before {
 	content: '';
 	display: block;
 	height: 1px;
@@ -554,7 +554,7 @@ strong {
 	background-color: #C5C1FE;
 }
 
-.banner-title {
+.banner-titel {
 	font-size: 62px;
 	margin-bottom: 20px;
 }
@@ -624,7 +624,7 @@ strong {
 .about-right {
 	max-width: 680px;
 }
-.about-right .def-title {
+.about-right .def-titel {
 	text-align: left;
 }
 .about-description {
@@ -633,7 +633,7 @@ strong {
 	line-height: 28px;
 	margin-bottom: 22px;
 }
-.about-list-title {
+.about-list-titel {
 	font-size: 18px;
 	margin-bottom: 18px;
 }
@@ -676,7 +676,7 @@ strong {
 .features-icon img {
 	max-width: 99px;
 }
-.features-title {
+.features-titel {
 	font-size: 24px;
 	max-width: 300px;
 	margin: 0 auto 15px auto;
@@ -742,10 +742,10 @@ strong {
 	right: 0;
 	top: 0;
 }
-.s-price .def-title {
+.s-price .def-titel {
 	margin-bottom: 5px;
 }
-.s-price .def-title-wrapper {
+.s-price .def-titel-wrapper {
 	margin-bottom: 70px;
 }
 .price-wrap {
@@ -813,12 +813,12 @@ strong {
 .news-top-line strong {
 	color: #302D2D;
 }
-.news-title {
+.news-titel {
 	font-size: 22px;
 	line-height: 1.2;
 	margin-bottom: 16px;
 }
-.news-title a {
+.news-titel a {
 	color: #302D2D;
 }
 
@@ -865,7 +865,7 @@ strong {
 	position: relative;
 	z-index: 1;
 }
-.s-reviews .def-title {
+.s-reviews .def-titel {
 	text-align: center;
 	margin-bottom: 60px;
 }
@@ -1006,7 +1006,7 @@ strong {
 	position: relative;
 	z-index: 1;
 }
-.form-title {
+.form-titel {
 	font-size: 32px;
 	margin-bottom: 30px;
 	text-align: center;
@@ -1087,7 +1087,7 @@ strong {
 .s-single .news-date {
 	margin-right: 25px;
 }
-.single-title {
+.single-titel {
 	font-size: 48px;
 	font-weight: 400;
 	max-width: 645px;
@@ -1165,7 +1165,7 @@ strong {
 .s-comments {
 	margin-top: 75px;
 }
-.comment-title {
+.comment-titel {
 	margin-bottom: 45px;
 	font-size: 42px;
 }
@@ -1267,7 +1267,7 @@ strong {
 .s-contacts {
 	padding: 60px 0;
 }
-.s-contacts .def-title {
+.s-contacts .def-titel {
 	text-align: center;
 }
 
@@ -1323,7 +1323,7 @@ strong {
 	margin: 60px auto 0 auto;
 	max-width: 560px;
 }
-.contacts-form-title {
+.contacts-form-titel {
 	font-size: 42px;
 	text-align: center;
 	margin-bottom: 40px;
@@ -1369,7 +1369,7 @@ strong {
 .s-dentist {
 	padding: 60px 0;
 }
-.s-dentist .def-title {
+.s-dentist .def-titel {
 	font-weight: normal;
 	font-weight: 400;
 	font-size: 52px;
@@ -1401,7 +1401,7 @@ strong {
 .dentist-list:nth-last-child(n+2) {
 	margin-bottom: 32px;
 }
-.dentist-list-title {
+.dentist-list-titel {
 	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 16px;
@@ -1470,7 +1470,7 @@ strong {
 	left: 50%;
 	transform: translateX(-50%);
 }
-.not-found-title {
+.not-found-titel {
 	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 12px;
@@ -1539,7 +1539,7 @@ strong {
 	display: flex;
 	column-gap: 84px;
 }
-.footer-title {
+.footer-titel {
 	font-size: 24px;
 	font-weight: 600;
 	margin-bottom: 25px;
@@ -1603,7 +1603,7 @@ strong {
 	h1 {
 		font-size: 40px;
 	}
-	.def-title {
+	.def-titel {
 		font-size: 40px;
 		line-height: 48px;
 	}
@@ -1624,7 +1624,7 @@ strong {
 		flex-direction: column;
 		position: relative;
 	}
-	.banner-title {
+	.banner-titel {
 		font-size: 40px;
 	}
 	.banner-description {
@@ -1708,10 +1708,10 @@ strong {
 	.s-news {
 		padding: 50px 0;
 	}
-	.s-news .def-title {
+	.s-news .def-titel {
 		margin-bottom: 0;
 	}
-	.s-news .def-title-wrapper {
+	.s-news .def-titel-wrapper {
 		margin-bottom: 30px;
 	}
 	.news-row {
@@ -1750,7 +1750,7 @@ strong {
 	/* Blog single 992 END */
 
 	/* Contacts page 992 START */
-	.contacts-form-title {
+	.contacts-form-titel {
 		font-size: 36px;
 	}
 	.contacts-row {
@@ -1763,7 +1763,7 @@ strong {
 	/* Contacts page 992 END */
 
 	/* Dentist page 992 START */
-	.s-dentist .def-title {
+	.s-dentist .def-titel {
 		font-size: 42px;
 	}
 	.dentist-row {
@@ -1782,7 +1782,7 @@ strong {
 	.dentist-list {
 		margin-bottom: 10px;
 	}
-	.dentist-list-title {
+	.dentist-list-titel {
 		font-size: 18px;
 	}
 	.dentist-list ul li {
@@ -1876,13 +1876,13 @@ strong {
 }
 
 @media screen and (max-width: 575px) {
-	.def-title {
+	.def-titel {
 		font-size: 30px;
 		line-height: 38px;
 	}
 
 	/* Callback START */
-	.callback-form-title {
+	.callback-form-titel {
 		font-size: 22px;
 	}
 	.form-wrap input[type="submit"] {
@@ -1911,7 +1911,7 @@ strong {
 	.about-description {
 		font-size: 14px;
 	}
-	.about-list-title {
+	.about-list-titel {
 		font-size: 16px;
 	}
 	.about-list-wrap ul li {
@@ -1938,7 +1938,7 @@ strong {
 	.features-icon img {
 		max-width: 85px;
 	}
-	.features-title {
+	.features-titel {
 		font-size: 20px;
 	}
 	.features-description {
@@ -1968,13 +1968,13 @@ strong {
 	.s-price::after {
 		display: none;
 	}
-	.s-price .def-title {
+	.s-price .def-titel {
 		font-size: 22px;
 	}
-	.s-price .def-title-wrapper {
+	.s-price .def-titel-wrapper {
 		margin-bottom: 50px;
 	}
-	.def-title-wrapper .def-description {
+	.def-titel-wrapper .def-description {
 		font-size: 12px;
 	}
 	.price-wrap {
@@ -2001,7 +2001,7 @@ strong {
 	.news-body {
 		padding: 0 8px 8px 8px;
 	}
-	.news-title {
+	.news-titel {
 		font-size: 20px;
 	}
 	.news-thumb {
@@ -2030,7 +2030,7 @@ strong {
 	.reviews-wrap {
 		padding: 30px 20px;
 	}
-	.s-reviews .def-title {
+	.s-reviews .def-titel {
 		margin-bottom: 30px;
 	}
 	.s-reviews .swiper-button-prev, 
@@ -2050,7 +2050,7 @@ strong {
 	.form-wrap {
 		padding: 40px 30px;
 	}
-	.form-title {
+	.form-titel {
 		font-size: 24px;
 	}
 	.form-wrap input {
@@ -2059,7 +2059,7 @@ strong {
 	/* Form 575 END */
 
 	/* Blog single 575 START */
-	.single-title {
+	.single-titel {
 		font-size: 36px;
 	}
 	.s-single {
@@ -2070,7 +2070,7 @@ strong {
 		margin-bottom: 20px;
 	}
 
-	.comment-title {
+	.comment-titel {
 		text-align: center;
 		font-size: 36px;
 		margin-bottom: 30px;
@@ -2088,7 +2088,7 @@ strong {
 	.s-contacts {
 		padding: 40px 0;
 	}
-	.s-contacts .def-title-wrapper {
+	.s-contacts .def-titel-wrapper {
 		margin-bottom: 25px;
 	}
 	.contacts-row {
@@ -2111,7 +2111,7 @@ strong {
 		font-size: 16px;
 	}
 
-	.contacts-form-title {
+	.contacts-form-titel {
 		margin-bottom: 30px;
 	}
 	.s-contacts input, 
@@ -2125,7 +2125,7 @@ strong {
 	.dentist-left {
 		min-width: auto;
 	}
-	.s-dentist .def-title {
+	.s-dentist .def-titel {
 		font-size: 36px;
 		margin-bottom: 25px;
 	}
