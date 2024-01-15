@@ -218,7 +218,7 @@
   }
 
   .review-img img {
-    max-width: 230px;
+    max-width: 140px;
     width: 100%;
     height: auto;
     border-radius: 50%;
@@ -247,10 +247,6 @@
     font-size: 24px;
   }
 
-  .review-content {
-    margin-top: 40px;
-  }
-
   .signup-img {
     max-width: 40%;
   }
@@ -269,7 +265,22 @@
   }
 
   .footer {
-    padding: 40px 0 20px;
+    padding: 40px 0 0;
+  }
+
+  .review-content {
+    margin-top: 30px;
+    column-gap: 20px;
+  }
+
+  .review-block {
+    padding: 32px 70px;
+  }
+
+  .contacts-block {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
   }
 }
 
@@ -309,6 +320,55 @@
 
   .signup-form__title {
     font-size: 24px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    bottom: 3px;
+    right: 1px;
+    font-size: 24px;
+  }
+
+  .review-item__title {
+    font-size: 30px;
+  }
+
+  .review-text {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .review-name {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .review-block {
+    padding: 32px 48px;
+  }
+
+  .button-block {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .contacts {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 18px;
+  }
+
+  .contact-form {
+    margin: 25px auto;
   }
 }
 
@@ -375,6 +435,28 @@
   .section-title {
     margin-bottom: 10px;
   }
+
+  .review-content {
+    flex-wrap: wrap;
+  }
+
+  .review-img {
+    width: 100%;
+    margin: 0 auto 15px;
+    display: flex;
+  }
+
+  .review-img img {
+    margin: 0 auto;
+  }
+
+  .review-text {
+    margin-right: 0;
+  }
+
+  .mobile-menu.active {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -411,6 +493,9 @@
   .footer .tel-block,
   .footer .socials-list {
     justify-content: center;
+  }
 
+  .not-found-title {
+    font-size: 28px;
   }
 }

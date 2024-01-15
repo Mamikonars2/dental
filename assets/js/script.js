@@ -39,13 +39,13 @@ window.onload = function () {
         slidesPerView: 1,
         loop: true, 
     
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: true,
-        },
+        // autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: true,
+        // },
         navigation: {
-            nextEl: '.review-arrow__right',
-            prevEl: '.review-arrow__left',
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
     });
 };
