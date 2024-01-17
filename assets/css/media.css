@@ -307,6 +307,16 @@
   .single-title {
     font-size: 32px;
   }
+
+  .staff-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-title {
+    display: block;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -505,6 +515,16 @@
   .single-post {
     padding: 30px 0;
   }
+
+  .breadcrumbs-list li a {
+    font-size: 16px;
+  }
+
+  .staff-content__img img {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -526,7 +546,8 @@
   }
 
   .btn {
-    padding: 0px 24px;
+    padding: 0px 18px;
+    height: 44px;
   }
 
   .footer-info,
@@ -559,5 +580,44 @@
 
   .comment-avatar {
     min-width: 90px;
+  }
+
+  .staff-block {
+    padding: 30px 0;
+  }
+
+  .schedule-list {
+    column-count: 1;
+  }
+
+  .staff-content {
+    margin-bottom: 30px;
+  }
+
+  .contacts-block {
+    margin: 30px 0 20px;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .modal-form input {
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    padding: 12px 14px;
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+  .modal {
+    padding: 20px;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 380px) {
+  .modal {
+    max-width: 300px;
   }
 }
